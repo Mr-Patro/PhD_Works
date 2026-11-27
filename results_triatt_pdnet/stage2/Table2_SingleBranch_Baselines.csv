@@ -1,0 +1,4 @@
+Single-Branch Model,Domain,Acc (%),Balanced Acc (%),Sensitivity (%),Specificity (%),Macro-F1 (%),MCC,ROC-AUC,PR-AUC
+Siamese-EEGNet (1D Temporal),1D Time-Series,69.92,69.78,70.0,69.57,61.91,0.3102,0.7095,0.9062
+ConvNeXt-Tiny (2D Local CNN),2D Spectrogram,79.7,77.41,80.91,73.91,71.28,0.4589,0.787,0.9415
+Swin-Tiny (2D Transformer),2D Spectrogram,84.96,73.72,90.91,56.52,73.72,0.4743,0.8237,0.9533

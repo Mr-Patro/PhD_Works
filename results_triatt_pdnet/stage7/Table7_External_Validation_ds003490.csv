@@ -1,0 +1,6 @@
+"External Model (OpenNeuro ds003490, N=50)",Transfer Protocol,Acc (%),Balanced Acc (%),Sens. (%),Spec. (%),Macro-F1 (%),MCC,ROC-AUC
+Zero-Shot Siamese-EEGNet (1D),Zero-Shot (No Retrain),50.0,50.0,96.0,4.0,36.58,0.0,0.6288
+Zero-Shot ConvNeXt-Tiny (2D),Zero-Shot (No Retrain),50.0,50.0,100.0,0.0,33.33,0.0,0.5344
+Zero-Shot Swin-Tiny (2D),Zero-Shot (No Retrain),58.0,58.0,96.0,20.0,50.91,0.2462,0.6976
+Zero-Shot HCD-SE-TriNet (Proposed),Zero-Shot (No Retrain),50.0,50.0,100.0,0.0,33.33,0.0,0.6256
+Domain-Calibrated HCD-SE-TriNet,Frozen Backbones + Head Adapt,76.0,76.0,76.0,76.0,76.0,0.52,0.7168

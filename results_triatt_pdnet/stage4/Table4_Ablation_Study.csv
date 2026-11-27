@@ -1,0 +1,8 @@
+Ablation Variant,Acc (%),Balanced Acc (%),Sens. (%),Spec. (%),Macro-F1 (%),MCC,ROC-AUC,PR-AUC
+1. Rest-Only EEG Spectral Baseline,81.95,61.58,92.73,30.43,63.16,0.2769,0.7043,0.9185
+2. Walk-Only EEG Spectral Baseline,67.67,64.98,69.09,60.87,58.69,0.2359,0.7162,0.9147
+3. Siamese-EEGNet (1D Temporal Branch),69.92,69.78,70.0,69.57,61.91,0.3102,0.7095,0.9062
+4. ConvNeXt-Tiny (2D Local CNN Branch),79.7,77.41,80.91,73.91,71.28,0.4589,0.787,0.9415
+5. Swin-Tiny (2D Global Transformer Branch),84.96,73.72,90.91,56.52,73.72,0.4743,0.8237,0.9533
+6. Tri-Branch Static Fusion (No Adaptive Attention),85.71,74.17,91.82,56.52,74.59,0.492,0.8,0.9426
+7. Proposed TriAtt-PDNet (Calibrated Adaptive Attn),80.45,67.55,87.27,47.83,66.95,0.3398,0.7292,0.921

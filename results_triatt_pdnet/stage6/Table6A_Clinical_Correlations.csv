@@ -1,0 +1,25 @@
+Clinical Scale,Cohort Scope,Model Output,Spearman ρ,Spearman p,Pearson r,Pearson p,Sig (p<0.05)
+MDS-UPDRS Part III,Full Cohort (n=130),Predicted PD Score P(PD),0.4888,3.6170e-09,0.4647,2.5628e-08,Yes*
+MDS-UPDRS Part III,Full Cohort (n=130),EEGNet Weight (α_1D),0.0031,0.9722,-0.0224,0.8007,No
+MDS-UPDRS Part III,Full Cohort (n=130),ConvNeXt Weight (α_Conv),-0.0509,0.5649,-0.028,0.7519,No
+MDS-UPDRS Part III,Full Cohort (n=130),Swin Weight (α_Swin),0.0406,0.6463,0.0465,0.5995,No
+MDS-UPDRS Part III,PD-Only (n=108),Predicted PD Score P(PD),0.3162,8.5682e-04,0.2349,0.0144,Yes*
+MDS-UPDRS Part III,PD-Only (n=108),EEGNet Weight (α_1D),0.0121,0.9008,-0.0128,0.8957,No
+MDS-UPDRS Part III,PD-Only (n=108),ConvNeXt Weight (α_Conv),-0.0459,0.6370,-0.0352,0.7176,No
+MDS-UPDRS Part III,PD-Only (n=108),Swin Weight (α_Swin),0.026,0.7897,0.0399,0.6821,No
+MoCA Score,Full Cohort (n=131),Predicted PD Score P(PD),-0.3149,2.4950e-04,-0.1949,0.0257,Yes*
+MoCA Score,Full Cohort (n=131),EEGNet Weight (α_1D),0.1277,0.1462,0.1497,0.0878,No
+MoCA Score,Full Cohort (n=131),ConvNeXt Weight (α_Conv),-0.1146,0.1926,-0.083,0.3458,No
+MoCA Score,Full Cohort (n=131),Swin Weight (α_Swin),-0.0758,0.3892,-0.1212,0.1679,No
+MoCA Score,PD-Only (n=108),Predicted PD Score P(PD),-0.2231,0.0203,-0.063,0.5169,Yes*
+MoCA Score,PD-Only (n=108),EEGNet Weight (α_1D),0.1556,0.1077,0.1788,0.0640,No
+MoCA Score,PD-Only (n=108),ConvNeXt Weight (α_Conv),-0.177,0.0669,-0.106,0.2748,No
+MoCA Score,PD-Only (n=108),Swin Weight (α_Swin),-0.0734,0.4501,-0.1389,0.1518,No
+PIGD Subscore,PD-Only (n=108),Predicted PD Score P(PD),0.2973,0.0018,0.1244,0.1997,Yes*
+PIGD Subscore,PD-Only (n=108),EEGNet Weight (α_1D),0.0224,0.8177,-0.0759,0.4347,No
+PIGD Subscore,PD-Only (n=108),ConvNeXt Weight (α_Conv),-0.0501,0.6063,-0.0602,0.5361,No
+PIGD Subscore,PD-Only (n=108),Swin Weight (α_Swin),0.0402,0.6795,0.1325,0.1715,No
+Tremor-Dominant (TD) Subscore,PD-Only (n=108),Predicted PD Score P(PD),0.1716,0.0757,0.1151,0.2353,No
+Tremor-Dominant (TD) Subscore,PD-Only (n=108),EEGNet Weight (α_1D),-0.075,0.4406,-0.021,0.8296,No
+Tremor-Dominant (TD) Subscore,PD-Only (n=108),ConvNeXt Weight (α_Conv),0.0671,0.4904,0.0127,0.8959,No
+Tremor-Dominant (TD) Subscore,PD-Only (n=108),Swin Weight (α_Swin),-0.0425,0.6626,0.016,0.8696,No

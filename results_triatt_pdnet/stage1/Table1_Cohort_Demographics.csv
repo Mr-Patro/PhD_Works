@@ -1,0 +1,12 @@
+Characteristic,PD Group (n=110),HC Group (n=23),p-value
+Sample Size (Paired Subjects),110 (82.71%),23 (17.29%),-
+Sex (Male / Female),71 / 39,10 / 13,0.0993
+Age (years),66.17 ± 9.19 (n=110),62.04 ± 6.31 (n=23),0.0097
+MoCA Score (0-30),25.19 ± 3.14 (n=108),27.48 ± 1.77 (n=23),7.0357e-04
+MDS-UPDRS Part III,25.06 ± 12.51 (n=108),1.45 ± 1.70 (n=22),2.7602e-13
+MDS-UPDRS Total,40.79 ± 20.63 (n=108),3.59 ± 3.39 (n=22),2.9952e-13
+Disease Duration (years),60.01 ± 47.05 (n=110),N/A,N/A (PD only)
+LEDD (mg/day),430.85 ± 384.67 (n=110),N/A,N/A (PD only)
+PIGD Subscore,0.50 ± 0.43 (n=108),N/A,N/A (PD only)
+Tremor-Dominant (TD) Subscore,0.40 ± 0.36 (n=108),N/A,N/A (PD only)
+"Color Trails Test (CTT, s)",116.76 ± 54.36 (n=104),80.17 ± 26.17 (n=23),6.3716e-04

@@ -1,0 +1,7 @@
+Model Architecture,Acc (%),Balanced Acc (%),Sens. (%),Spec. (%),Macro-F1 (%),MCC,ROC-AUC,PR-AUC
+Siamese-EEGNet (1D Baseline),69.92,69.78,70.0,69.57,61.91,0.3102,0.7095,0.9062
+ConvNeXt-Tiny (2D Local CNN),79.7,77.41,80.91,73.91,71.28,0.4589,0.787,0.9415
+Swin-Tiny (2D Transformer),84.96,73.72,90.91,56.52,73.72,0.4743,0.8237,0.9533
+Static Tri-Branch Fusion (V6),85.71,74.17,91.82,56.52,74.59,0.492,0.8,0.9426
+HCD-SE-TriNet Default (V8),88.72,74.27,96.36,52.17,77.47,0.5643,0.8107,0.9274
+HCD-SE-TriNet (Optuna-Optimized),88.72,77.71,94.55,60.87,79.19,0.5863,0.8324,0.9319
